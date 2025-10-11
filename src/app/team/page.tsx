@@ -67,7 +67,7 @@ export default function Team() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-8">
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900">
-              Co-founders &amp; Leadership Team
+           Leadership Team
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Meet the dedicated leaders working alongside our founder to drive TAN&rsquo;s mission across Africa.
