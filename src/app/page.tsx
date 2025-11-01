@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState, useRef, useEffect, Suspense } from 'react';
-import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { motion } from "framer-motion";
 import { GiAfrica } from "react-icons/gi";

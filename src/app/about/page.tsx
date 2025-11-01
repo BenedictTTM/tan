@@ -3,7 +3,6 @@ import Image from 'next/image';
 import dynamic from 'next/dynamic';
 import LoadingSkeleton from '../../components/ui/LoadingSkeleton';
 import Tan from '../../../public/TanM.jpg';
-import TanCeo from '../../../public/TanCeo.jpg';
 
 // Dynamic import for Card component
 const Card = dynamic(() => import('../../components/Card'), {
@@ -103,7 +102,7 @@ export default function About() {
                 <div className="space-y-3 sm:space-y-4">
                   <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-black">Mission</h3>
                   <p className="text-sm sm:text-base text-slate-500 leading-relaxed">
-                    To cultivate Africa's future leaders through intentional networking, academic excellence,professional development and a united commitment to African growth and innovation
+                    To cultivate Africa&apos;s future leaders through intentional networking, academic excellence,professional development and a united commitment to African growth and innovation
                   </p>
                 </div>
               </Card>
@@ -146,8 +145,8 @@ export default function About() {
                 <br />
                 <span className="text-rose-600">Sustainable Development Goals</span>
               </h2>
-              <p className="text-sm sm:text-base md:text-lg text-slate-500 leading-relaxed max-w-xl sm:max-w-2xl lg:max-w-4xl mx-auto px-4 sm:px-0">
-                The Ascend Network aligns its vision with the UN&rsquo;s 2030 Agenda for Sustainable Development to ensure that our leadership and empowerment programs actively contribute to global progress and create meaningful impact across Africa and beyond.
+              <p className="text-sm sm:text-base md:text-lg text-slate-500 leading-relaxed max-w-xl sm:max-w-2xl lg:max-w-3xl mx-auto px-4 sm:px-0">
+                The Ascend Network aligns its vision with the UN&apos;s 2030 Agenda for Sustainable Development to ensure that our leadership and empowerment programs actively contribute to global progress and create meaningful impact across Africa and beyond.
               </p>
           </div>
 
@@ -164,7 +163,7 @@ export default function About() {
                   Quality Education
                 </h3>
                 <p className="text-sm sm:text-base text-slate-500 leading-relaxed">
-                  Promoting access to education and skills development through TAN's NGO wing, which is committed to supporting schools and students in underserved and rural communities.
+                  Promoting access to education and skills development through TAN&apos;s NGO wing, which is committed to supporting schools and students in underserved and rural communities.
                 </p>
               </div>
             </div>
@@ -179,7 +178,7 @@ export default function About() {
                   Gender Equality
                 </h3>
                 <p className="text-sm sm:text-base text-slate-500 leading-relaxed">
-                  Advancing womens's leadership,empowerment, and inclusion in desicion-Making across all Tan Programs.
+                  Advancing womens&apos;s leadership,empowerment, and inclusion in desicion-Making across all Tan Programs.
                 </p>
               </div>
             </div>
@@ -220,10 +219,10 @@ export default function About() {
             {/* Closing Statement */}
             <div className="text-center space-y-6 bg-gradient-to-br from-emerald-50 to-rose-50 rounded-2xl p-8 sm:p-12">
               <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-black">
-                Shaping Africa&rsquo;s Future Leaders
+                Shaping Africa&apos;s Future Leaders
               </h3>
               <p className="text-sm sm:text-base md:text-lg text-slate-600 leading-relaxed max-w-3xl mx-auto">
-                Building leaders who drive Africa’s sustainable progress and global transformation.
+                Building leaders who drive Africa&apos;s sustainable progress and global transformation.
               </p>
             </div>
 

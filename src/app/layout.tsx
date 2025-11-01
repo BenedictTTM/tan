@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Poppins } from 'next/font/google';
+import { Poppins } from 'next/font/google';
 import dynamic from 'next/dynamic';
 import "./globals.css";
 
@@ -8,14 +8,6 @@ const poppins = Poppins({
   subsets: ['latin'],
   weight: ['400', '600', '700'],
   variable: '--font-poppins',
-  display: 'swap',
-  preload: true
-});
-
-// Create a combined font class variable for Inter
-const interVariable = Inter({ 
-  subsets: ['latin'],
-  variable: '--font-inter',
   display: 'swap',
   preload: true
 });
