@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Poppins } from 'next/font/google';
 import dynamic from 'next/dynamic';
 import "./globals.css";
-
 // Optimize font loading
 const poppins = Poppins({ 
   subsets: ['latin'],
